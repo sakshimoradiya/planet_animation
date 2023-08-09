@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_swiper_plus/flutter_swiper_plus.dart';
 import 'package:planet_animation/model/datas.dart';
+import 'package:planet_animation/views/animatePage.dart';
 import 'package:planet_animation/views/constants.dart';
 import 'package:planet_animation/views/detailsview.dart';
 
@@ -16,7 +17,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: gradientEndColor,
+      backgroundColor: gradientStartColor,
       body: Container(
         decoration: BoxDecoration(
             gradient: LinearGradient(
@@ -26,13 +27,13 @@ class _HomePageState extends State<HomePage> {
         child: SafeArea(
             child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[
+          children: [
             Padding(
               padding: const EdgeInsets.all(32),
               child: Column(
                 children: <Widget>[
                   Row(
-                    children: const [
+                    children: [
                       Text(
                         'Milky Way galaxy',
                         style: TextStyle(
@@ -42,38 +43,26 @@ class _HomePageState extends State<HomePage> {
                             fontWeight: FontWeight.w900),
                         textAlign: TextAlign.left,
                       ),
-                    ],
-                  ),
-                  Row(
-                    children: [
-                      DropdownButton(
-                        items: const [
-                          DropdownMenuItem(
-                            child: Text(
-                              'Solar System',
-                              style: TextStyle(
-                                  fontFamily: 'Avenir',
-                                  fontSize: 24,
-                                  color: Color(0x7cdbf1ff),
-                                  fontWeight: FontWeight.w500),
-                              textAlign: TextAlign.left,
-                            ),
-                          )
-                        ],
-                        onChanged: (value) {},
-                        icon: Padding(
-                          padding: const EdgeInsets.all(16.0),
-                          child: Container(
-                              height: 100,
-                              width: 100,
-                              decoration:
-                                  const BoxDecoration(shape: BoxShape.circle),
-                              child: Image.asset("assets/drop_down_icon.png")),
+                      SizedBox(
+                        width: 50,
+                      ),
+                      GestureDetector(
+                        onTap: () {
+                          Navigator.of(context).pushNamed(
+                            'animatPage',
+                          );
+                        },
+                        child: Icon(
+                          Icons.circle_outlined,
+                          color: Colors.white,
+                          size: 25,
                         ),
-                        underline: const SizedBox(),
                       ),
                     ],
                   ),
+                  const SizedBox(
+                    height: 80,
+                  )
                 ],
               ),
             ),
