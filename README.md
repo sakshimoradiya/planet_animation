@@ -77,3 +77,33 @@ and entertaining journey through the galaxy.
 - User satisfaction with the application’s functionality and UI/UX
 - Quality of code and project structure
 - Presentation quality and clarity of communication
+
+
+
+###VIDEO
+
+https://github.com/sakshimoradiya/planet_animation/assets/131337231/ff4d0bf7-e4a8-468c-9ae6-b5733c24a4a8
+
+
+
+
+###SCREEN SHOTS
+
+<img src="https://github.com/sakshimoradiya/planet_animation/assets/131337231/d8e948ac-3154-4c6c-a410-7d4df155a200" width="250"></img>
+<img src="https://github.com/sakshimoradiya/planet_animation/assets/131337231/d3f44d49-bb9b-4d94-9499-cd997bfb69d7" width="250"></img>
+<img src="https://github.com/sakshimoradiya/planet_animation/assets/131337231/598bec50-4333-4fba-a290-10d5849db7d1" width="250"></img>
+<img src="https://github.com/sakshimoradiya/planet_animation/assets/131337231/f6b90dc2-8a78-47c2-a8ad-4f894c96a5ef" width="250"></img>
+<img src="https://github.com/sakshimoradiya/planet_animation/assets/131337231/0a153f32-2f48-4f74-b75a-459f86284fac" width="250"></img>
+
+
+
+
+
+
+
+
+
+
+
+
+
